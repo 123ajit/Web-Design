@@ -1,0 +1,476 @@
+body{
+	height: 1500px;
+	padding-top: 50px;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	position: relative
+
+}
+
+h1,h2,h3,h4,h5, lead {
+	font-family: "Droid Sans",sans-serif;
+	font-weight: 100;
+	margin: 0
+}
+
+.navbar {
+	border-radious:0;
+	border: 0;
+}
+
+header .navbar {
+  padding: 11px 0;
+}
+
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: #EEC856;
+  background: transparent;
+  border-bottom: 4px solid #EEC856;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #E15D5F;
+  background: transparent;
+  text-shadow: none;
+}
+
+body {
+  background: #FCFDFF;
+  color: #0A0000;
+  font-family: 'Raleway', sans-serif;
+}
+header .navbar-brand {
+  background: url();
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height: auto;
+}
+
+header .navbar-brand h1 {
+  color: white;
+  margin: 0;
+  font-size:
+  font-weight:;
+  padding-left:
+}
+.page{
+	padding: 50px 0;
+}
+.page h2{
+	text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: fixed;
+  top: 20px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 3px;
+  background: rgba(87, 20, 191, 0.86);
+  width: 310px;
+  text-align: right;
+  padding: 9px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.36);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 12px;
+  color: #EF3205;
+  background: #08E883;
+  padding: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 32px;
+  height: 33px;
+  font-size: 22px;
+  background: #08F75E;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/** page mission **/
+#mission{
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+	border-top: 20px solid rgba(238, 200, 86, .5);
+}
+/*Start Section features */
+
+.section-heading {
+    margin-top: 0;
+}
+
+.service-box {
+    margin: 50px auto 0;
+    max-width: 400px;
+}
+
+@media(min-width:992px) {
+    .service-box {
+        margin: 20px auto 0;
+    }
+}
+
+
+/* Start Section our Team */
+.our_team
+{
+  background: url("../img/b1.jpg") no-repeat center center fixed;
+  min-height: 445px
+}
+.our_team .team
+{
+  background: rgba(2,2,2,0.8);
+  color: #FFF;
+  min-height: 600px
+  padding-top:80px;
+  padding-bottom: 40px;
+}
+.our_team h1
+{
+  margin-bottom: 50px
+}
+
+.our_team .person
+{
+  margin-bottom: 25px
+}
+/* end Section our Team */
+
+
+
+/*Start Section our Stats */
+.statistics
+{
+	background:url('../img/222.jpg') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+	min-height: 300px
+}
+
+.statistics .data
+{
+	background-color:rgba(2,2,2,0.7);
+	color:#B6B5B5;
+	min-height: 300px;
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+.statistics h1
+{
+	margin-bottom: 60px
+}
+
+.statistics .stats
+{
+	-webkit-transition:0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	margin-bottom: 30px
+
+}
+
+.statistics .stats:hover
+{
+	color:#FFF
+}
+
+.statistics p
+{
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 0
+}
+.statistics span
+{
+	font-size: 20px
+}
+
+/*end Section our Stats  */
+
+/*Start Section our Skills  */
+.our-skills
+{
+	padding-top: 40%
+	padding-bottom:70%
+}
+
+.our-skills h1{margin-bottom: 60px}
+.our-skills h3{font-weight:bold; margin-top:0;}
+.our-skills .progress{height:36px}
+.our-skills .progress.bar
+{
+	line-height:36px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 10px
+}
+
+
+/*end Section statics */
+
+/*Start Section Contact Us */
+
+.contact-us
+{
+	background: url('../img/animated.gif') no-repeat center center fixed;
+	min-height: 300px
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
+	background-size:cover;
+	min-height: 300px
+
+}
+.contact-us .field
+{
+	background:rgba(9,9,9,0.8);
+    min-height:300px;
+    color:#DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact-us p {margin-bottom: 40px}
+.contact-us textarea{height: 108px}
+
+/*end Section Contact Us */
+
+/*Strt Section Our Clients */
+.our-clients
+{
+	background: #EEE;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+.our-clients img
+{
+	opacity: 0.4;
+	filter:alpha(opacity=40);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-webkit-transition:all0.7s ease-in-out;
+	-moz-transition:all 0.7s ease-in-out;
+	-o-transition:all 0.7s ease-in-out;
+	transition:all 0.7s ease-in-out
+}
+
+.our-clients img:hover
+{
+	opacity: 1
+}
+
+/*end Section Our Clients */
+
+/*Start Section Our footer */
+.footer
+{
+	background:#333;
+	color: #AAA;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+.footer a {color: #AAA}
+.footer a:hover{color: #FFF}
+.footer h3
+{
+	color: #0895D1;
+	letter-spacing: 1px;
+	margin: 30px 0 20px
+}
+.footer .three-columns
+{
+	overflow: hidden;
+}
+.footer .three-columns li
+{
+	width: 33.3333%;
+	float:left;
+	padding: 5px 0
+}
+.footer .social-list
+{
+	overflow: hidden;
+	margin: 20px 0 10px
+  }
+.footer .social-list li
+{
+	float: left;
+	margin-right:4px;
+	opacity: 0.5;
+	filter:alpha(opacity=70);
+	-webkit-transition:all0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+.footer .social-list li:hover
+{
+	opacity: 1
+}
+.footer.copyright
+{
+  background: #333;
+  color: #AAA;
+  padding: 15px 0;
+  margin-top:30px;
+  font-size: 18px
+}
+
+.footer .copyright span
+{
+  color: #08955D1
+}
+/*end Section Our footer*/
+
+
+/*start section Loading*/
+.Loading-overlay
+{
+  background: #222;
+  color: #FFF;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%
+  z-index:99999
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: 300px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #170101;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+/*end section Loading*/
+
+
+
+
+
+
+
+
+
+
+
